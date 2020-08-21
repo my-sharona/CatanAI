@@ -1,0 +1,16 @@
+Quickstart Guide
+
+for help type:
+python main.py -h
+
+To start a game with 4 random agents run the command:
+python main.py
+
+If you want to play as a human run:
+python main.py -agents human random
+(This will run one human and three randoms)
+
+You can replace random with one of the following:
+onemove, prob, monte, genetic or human (if you want more human players)
+
+The default number of player is 4, but if you add -num_player 3 there will be 3 players.
